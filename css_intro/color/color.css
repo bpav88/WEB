@@ -1,0 +1,28 @@
+#first{
+    color: darkturquoise;
+    background-color: rgb(90, 88, 11);
+    opacity: 0.5;
+}
+#second{
+    color: rgb(85, 172, 238);
+    background-color: rgba(90, 88, 11, 0.5);
+}
+#third{
+    color: #55ACEE;
+    background-color: #d6aeae;
+}
+.prvi{
+    background-color:AliceBlue;
+}
+.drugi{
+    background-color:HotPink;
+}
+.treci{
+    background-color: rgb(34, 23, 16);
+}
+.cetvrti{
+    background-color: rgb(216, 206, 199);
+}
+.peti{
+    background-color: rgb(201, 67, 112);
+}

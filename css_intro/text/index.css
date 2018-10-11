@@ -1,0 +1,41 @@
+@font-face{
+    font-family: "Ime";
+    src:url("./fonts/JosefinSans-Regular.ttf");
+}
+body{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    font-family: 'Charmonman', cursive;
+    font-weight: normal;
+}
+#prvi{
+    font-weight: 700;
+    font-family: Ime;
+}
+
+#prvi quote{
+    font-weight: normal;
+}
+
+#prvi q{
+    font-weight: bold;
+}
+#drugi{
+    font-style: oblique;
+}
+
+#drugi q{
+    font-style: italic;
+}
+#treci q{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+}
+span{
+    font-style: italic;
+    font-weight: 400;
+}
