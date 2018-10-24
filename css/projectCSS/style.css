@@ -1,0 +1,280 @@
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+* {
+  font-family: "Roboto";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearFix::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+nav a{
+  text-decoration: none;
+}
+nav h1 span {
+  padding-left: 2%;
+  margin-right: 2%;
+  color: orange;
+  border-top: 4px solid darkgrey;
+  border-bottom: 4px solid darkgrey;
+  border-left: 4px solid darkgrey;
+}
+nav h1 {
+  margin-top: 5%;
+  text-align: center;
+  border: 0;
+  color: darkgray;
+}
+nav {
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 4%;
+
+}
+nav ul {
+  background-color: rgb(133, 178, 252);
+  list-style-type: none;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 4%;
+}
+nav ul li {
+  text-align: center;
+  padding: 2%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+  font-weight: bold;
+}
+header img {
+  margin-top: 4%;
+  width: 100%;
+}
+header {
+  margin-top: 4%;
+  background-image: url("images/banner3.jpg");
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+header h2 {
+  color: white;
+  margin-bottom: 7%;
+  font-weight: normal;
+}
+header a {
+  padding: 3% 8%;
+  text-decoration: none;
+  background-color: rgb(47, 115, 170);
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+}
+@media (min-width: 768px){
+  nav div{
+    float: right;
+    width: 50%;
+    margin-top: 2%;
+  }
+   nav a {
+     float:left;
+     margin-top: 3%;
+   }
+   nav ul{
+     margin-top:1.5%;
+     width: 100%;
+     background-color: transparent;
+   }
+   nav ul li{
+     display: inline-block;
+
+   }
+   nav, header {
+      margin-top:0;
+   }
+   nav h1 span{
+     border-color: white;
+     padding-left: 5%;
+     margin-right: 5%;
+  
+   }
+   nav h1{
+     color:white;
+   }
+  
+   header a{
+     font-size: 17px;
+     padding: 1% 3%;
+     border-radius: 30px;
+   }
+   header h2{
+     font-size: 30px;
+     margin-left: 10%;
+     margin-right: 10%;
+   }
+
+}
+
+@media (min-width: 1200px){
+  nav div{
+    float: right;
+    width: 31%;
+    margin-top: 2%;
+  }
+}
+
+@media (min-width: 1200px){
+  header h2{
+    font-size: 60px;
+    padding: 0;
+  }
+
+}
+
+
+
+section {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+section h2 {
+  text-align: center;
+  font-weight: 500;
+}
+section hr {
+  background-color: black;
+  height: 3px;
+  margin: 0 auto;
+  width: 25%;
+}
+section h3 {
+  font-size: 17px;
+  margin-top: 7%;
+  color: rgb(47, 115, 170);
+  margin-bottom: 7%;
+}
+section p {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(98, 98, 98);
+  margin-bottom: 7%;
+}
+section ul {
+  padding-left: 5%;
+  list-style-type: none;
+  list-style-image: url("./images/arrow_bullet.png");
+}
+section li {
+  font-size: 14px;
+  padding-bottom: 4%;
+}
+section img {
+  margin-top: 4%;
+  width: 100%;
+}
+.section2{
+  margin-top: 10%;
+}
+.section2 article{
+  background-color: rgb(133, 178, 252);
+  padding: 3%;
+  margin-bottom: 3%;
+  margin-top: 6%;
+  margin-left: 6%;
+  margin-right: 5%;
+}
+.section2 img{
+  width: 20%;
+  border: 2px solid white;
+  padding: 1%;
+  border-radius: 50%;
+  float: left;
+}
+.section2 article h4{
+  float: left;
+  margin-top: 10%;
+  margin-left: 3%;
+  font-size: 15px;
+}
+.section2 article p{
+  clear:both;
+  width: 100%;
+  line-height: 160%;
+  color: white;
+}
+.section3{
+  margin: 0;
+  padding: 0;
+}
+.section3 h2{
+  margin-top:20%;
+}
+.section3 hr{
+  margin-bottom: 10%;
+}
+.section3 article{
+  float: left;
+  width: 50%;
+  height: 150px;
+  text-align: center;
+  padding-top: 3%;
+}
+.section3 article img{
+  width: 10%;
+  margin-right: 4%;
+}
+.section3 h3{
+  color: white;
+}
+.section3 p{
+  color: white;
+  font-size: 12px;
+}
+.section3 article:first-of-type{
+  background-color: lightgreen;
+}
+.section3 article:nth-of-type(2){
+  background-color: lightpink;
+}
+.section3 article:nth-of-type(2) h3{
+  margin-bottom: 15%;
+}
+.section3 article:nth-of-type(3){
+  text-align: center;
+  background-color: blue;
+}
+.section3 article:nth-of-type(3) p{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+.section3 article:nth-of-type(4){
+  background-color: lightblue;
+  padding: 0;
+  margin: 0;
+  padding-left: 3%;
+}
+.section3 article:nth-of-type(4) img{
+  width: 100%;
+  height: 100%;
+}
+.section4{
+  width: 100%;
+  margin-top: 20%;
+  padding: 0;
+
+}
