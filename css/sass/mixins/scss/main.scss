@@ -1,0 +1,15 @@
+@import 'variables';
+@import 'mixins';
+div{
+    width: $divWidth;
+    height: $divHeight;
+    background-color: $divBackground;
+    @include boxShadow();
+    margin: 10px;
+    float: left;
+    
+}
+p{
+    @include textShadow();
+    clear: both;
+}
