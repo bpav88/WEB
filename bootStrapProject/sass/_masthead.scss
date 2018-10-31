@@ -1,0 +1,22 @@
+.mhimgset{
+    width: 50%;
+    margin: 30px auto;
+    @media (min-width:768px) {
+        width: 30%;
+    }
+    @media (min-width:992px) {
+        width: 20%;
+    }
+}
+.mhbgcolor{
+    background-color: #18bc9c;
+    text-align: center;
+    color: white;
+}
+.first .card-title{
+    font-weight: 800;
+    @media (min-width:768px){
+        font-size: 400%;
+        font-weight: 900;
+    }
+}

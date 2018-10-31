@@ -1,0 +1,28 @@
+.fourth {
+    h2{
+        margin: 0 auto 8% auto;
+    }
+    label{
+        color:gray;
+    }
+    input{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid lightgray;
+    }
+    textarea{
+        border: none;
+        border-radius: 0;
+        border-bottom: 1px solid lightgray;
+    }
+    button{
+        background-color: #18bc9c;
+        border: none;
+    }
+    form{
+        @media (min-width:992px){
+            padding-left: 18%;
+            padding-right: 18%;
+        }
+    }
+}

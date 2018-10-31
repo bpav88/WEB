@@ -1,0 +1,21 @@
+.third{
+    margin-top:5%;
+    margin-bottom: 5%;
+    button{
+        margin-top: 5%;
+    }
+}
+.third div:first-child{
+    padding: 2%;
+    @media (min-width:992px){
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+}
+.about{
+    background-color: #18bc9c;
+    border-radius: 0;
+    border: none;
+    color: white;
+}

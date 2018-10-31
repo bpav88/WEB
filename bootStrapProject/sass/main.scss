@@ -1,0 +1,19 @@
+@import 'contact';
+@import 'masthead';
+@import 'navbar';
+@import 'portfolio';
+@import 'variables';
+@import 'about';
+@import 'footer';
+@font-face{
+    font-family: Lato;
+    src: url("../vendor/fonts/Lato-Regular.ttf");
+}
+@font-face{
+    font-family: Lato;
+    src: url("../vendor/fonts/Lato-Bold.ttf");
+    font-weight: bold;
+}
+*{
+    font-family: 'Lato';
+}

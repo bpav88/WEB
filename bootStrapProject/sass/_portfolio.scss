@@ -1,0 +1,20 @@
+.second {
+    padding: 0 5%;
+    h1.col-12{
+        text-align: center;
+        font-weight: 900;
+        margin: 20px auto;
+    }
+    article{ 
+        margin-top: 5%;   
+        img{
+            width: 100%;
+        }
+    }   
+    @media(min-width: 768px){
+        padding: 0 8%;
+    } 
+    @media(min-width: 992px){
+        padding: 0 10%;
+    }  
+}
