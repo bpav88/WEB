@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+width: 500px;
+margin: 5% auto;
+background-color: #e9e9e9;
+padding: 2%;
+}
+
+#textarea{
+    height: 600px;
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(165, 156, 156);
+    overflow-y: scroll;
+}
+
+p{
+    padding: 5px;
+    margin: 5px;
+    float: left;
+    clear: both;
+    background-color: #e9e9e9;
+    color: #5a5858;
+}
+#text{
+    margin-top: 2%;
+    width: 70%;
+    height: 30px;
+    border: none;
+}
+#button {
+    width: 29%;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    border: none;
+
+}

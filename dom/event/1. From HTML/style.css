@@ -1,0 +1,22 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+
+.blue {
+
+ background-color: #043f70;
+
+
+}
+
+
+input {
+
+    background-color: #c74646;
+    color: white;
+    padding: 5px;
+    display: block;
+    margin: 100px auto;
+
+}
