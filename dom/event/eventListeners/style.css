@@ -1,0 +1,30 @@
+body {
+  background-image: url("./images/field.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  margin: 0 auto;
+  /* background-image: url("./images/field.png");
+  background-size: cover; */
+  /* background-repeat: no-repeat; */
+}
+
+.player {
+  height: 200px;
+  position: absolute;
+}
+
+.button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border: none;
+}
