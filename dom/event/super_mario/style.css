@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    background-image: url("./images/bg.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+.move{
+    background-position: -2% 0;
+}
+
+img{
+    position: absolute;
+    bottom: 115px;
+    left: calc(50% - 50px);
+    width: 100px;
+}
