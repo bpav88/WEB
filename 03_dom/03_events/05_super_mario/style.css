@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+
 .container{
     height: 100vh;
     background-image: url("./images/bg.jpg");
@@ -12,6 +13,6 @@
 img{
     position: absolute;
     bottom: 17%;
-    left: 45%;
+    left: 42%;
     height: 200px;
 }
